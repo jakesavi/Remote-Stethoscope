@@ -26,6 +26,8 @@ https://discord.gg/RNJMYp4RQn
 1. Connect the Xiao RP2040 to your computer via USB-C cable
     - In order to boot the microcontroller into flashable mode, hold down the microcontroller push button labeled "B" from before the connection to the computer happens until after the LED on the microcontroller turns on.
 2. To flash a new microcontroller with the software to act as a microphone, copy the file usb_microphone.uf2 into the root directory of the microcontroller.  It should automatically disconnect after this and reboot into a device that the system will refer to as MicNode
-3. Connect the Xiao RP2040 to the MEMS digital microphone.  See "./Fall2022 Audio Samples/EffectiveCircuit.png" for a demonstration of of how the circuit should appear.
+3. Connect the Xiao RP2040 to the MEMS digital microphone.  See "./doc/BreadboardCircuit.png" for a demonstration of of how the circuit should appear.
     - The microcontroller and microphone boards should both be soldered to their respective pin headers in order for this to work.
 4. Open Audacity, select Microphone (MicNode) as your recording device, begin recording, and confirm that the microphone is recording a clear signal.
+![Circuit board connection map](./doc/BreadboardCircuit.png)
+
