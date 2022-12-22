@@ -1,6 +1,0 @@
-[submodule ".\\MicrocontrollerDriver\\microphone-library-for-pico\\"]
-	path = .\\MicrocontrollerDriver\\microphone-library-for-pico\\
-	url = https://github.com/ArmDeveloperEcosystem/microphone-library-for-pico.git
-[submodule ".\\MicrocontrollerDriver\\Pico-SDK\\"]
-	path = .\\MicrocontrollerDriver\\Pico-SDK\\
-	url = https://github.com/raspberrypi/pico-sdk.git
