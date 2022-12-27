@@ -1,0 +1,9 @@
+// ANALOG MICROPHONE
+Look into SDK page 81 raw data for microphone.
+Convert this to .wav form.
+Use as input device.
+Read Real Time Data.
+// PDM MICROPHONE
+Understand how the pdm microphone library works
+Read article:
+https://www.hackster.io/sandeep-mistry/create-a-usb-microphone-with-the-raspberry-pi-pico-cc9bd5#toc-additional-raspberry-pi-rp2040-resources-10
