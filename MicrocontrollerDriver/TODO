@@ -1,9 +1,19 @@
 // ANALOG MICROPHONE
 Look into SDK page 81 raw data for microphone.
-Convert this to .wav form.
+Convert this to .wav form. <---- Might not need to be done SEE LINE 12
 Use as input device.
 Read Real Time Data.
+
 // PDM MICROPHONE
 Understand how the pdm microphone library works
 Read article:
 https://www.hackster.io/sandeep-mistry/create-a-usb-microphone-with-the-raspberry-pi-pico-cc9bd5#toc-additional-raspberry-pi-rp2040-resources-10
+
+//TINY USB
+//*
+Understand Tiny USB's MIC NODE Stack. This is how the authors achived the micnode configuration. (Does the stack of TUD need to be modified?)
+PDM is called in usb_microphone executable. Could this be modified to accept the analog microphone instead of the pdm? Would increasing the pdm mic volume
+level increase the lower decibel sounds? Would this sound buzzy? At the current moment data_samples are set to 16 bit int. Can this be changed? What would
+happen? 
+PLAY AROUND WITH THIS AND SEE WHAT HAPPENS 
+*//
