@@ -1,2 +1,0 @@
-/home/jws/Projects/Remote-Stethoscope/MicrocontrollerDriver/MyDevelopment/build/CMakeFiles/edit_cache.dir
-/home/jws/Projects/Remote-Stethoscope/MicrocontrollerDriver/MyDevelopment/build/CMakeFiles/rebuild_cache.dir
