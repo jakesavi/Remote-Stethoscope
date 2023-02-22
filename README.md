@@ -40,5 +40,6 @@ Instructions compiled from: [the ARM developer ecosystem](https://github.com/Arm
        - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-ArmGnuToolchain.ps1).
 
    1. Install [CMake](https://cmake.org/download/).
+       - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-CMake.ps1).
 
 
