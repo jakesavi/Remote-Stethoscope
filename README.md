@@ -22,7 +22,8 @@ https://discord.gg/RNJMYp4RQn
   - Advantages of doctor's end file save:
     - Doctor can segment the incoming real-time stream based on when the patient switches which body part is being listened to, allowing for an easier time with labeling the saved data for potential data visualization and AI applications
 
-## Getting Started
+## Instructions
+### Setting up a Xiao RP2040 with already compiled code
 1. Connect the Xiao RP2040 to your computer via USB-C cable
     - In order to boot the microcontroller into flashable mode, hold down the microcontroller push button labeled "B" from before the connection to the computer happens until after the LED on the microcontroller turns on.
 2. To flash a new microcontroller with the software to act as a microphone, copy the file usb_microphone.uf2 into the root directory of the microcontroller.  It should automatically disconnect after this and reboot into a device that the system will refer to as MicNode
@@ -30,4 +31,14 @@ https://discord.gg/RNJMYp4RQn
     - The microcontroller and microphone boards should both be soldered to their respective pin headers in order for this to work.
 4. Open Audacity, select Microphone (MicNode) as your recording device, begin recording, and confirm that the microphone is recording a clear signal.
 ![Circuit board connection map](./doc/BreadboardCircuit.png)
+
+### Setting up a development environment
+Instructions compiled from: [the ARM developer ecosystem](https://github.com/ArmDeveloperEcosystem/microphone-library-for-pico#building), [the getting started with Raspberry Pi Pico datasheet section 9.2](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf), and from viewers like you.  Thank you.
+
+1. Install the toolchain
+1. 1. Install [the ARM GNU Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads).  You will need the arm-none-eabi version.  Download and run the executable.
+1. 1. - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-ArmGnuToolchain.ps1).
+
+1. 2. Install [CMake](https://cmake.org/download/).
+
 
