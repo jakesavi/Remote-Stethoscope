@@ -36,9 +36,9 @@ https://discord.gg/RNJMYp4RQn
 Instructions compiled from: [the ARM developer ecosystem](https://github.com/ArmDeveloperEcosystem/microphone-library-for-pico#building), [the getting started with Raspberry Pi Pico datasheet section 9.2](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf), and from viewers like you.  Thank you.
 
 1. Install the toolchain
-1. 1. Install [the ARM GNU Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads).  You will need the arm-none-eabi version.  Download and run the executable.
-1. 1. - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-ArmGnuToolchain.ps1).
+   1. Install [the ARM GNU Toolchain](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads).  You will need the arm-none-eabi version.  Download and run the executable.
+       - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-ArmGnuToolchain.ps1).
 
-1. 2. Install [CMake](https://cmake.org/download/).
+   1. Install [CMake](https://cmake.org/download/).
 
 
