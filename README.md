@@ -42,4 +42,13 @@ Instructions compiled from: [the ARM developer ecosystem](https://github.com/Arm
    1. Install [CMake](https://cmake.org/download/).
        - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-CMake.ps1).
 
+   1. Install [Build tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
+       - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-visualStudioCppToolkit.ps1).
+   
+   1. Install [Python](https://www.python.org/downloads/windows/).
+       - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-python.ps1).
+
+   1. Install [Git](https://git-scm.com/download/win).
+       - Automated install available [here](https://github.com/M-Nelyubov/Software-Installers/blob/main/applications/install-Git.ps1).
+   - This entire collection of installations can be run in one go with [this script](https://github.com/M-Nelyubov/Software-Installers/blob/main/install-StethoscopeStack.ps1).
 
