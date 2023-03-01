@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/jws/Projects/testAudio/build/CMakeFiles/ELF2UF2Build
+/home/jws/Projects/testAudio/build/CMakeFiles/ELF2UF2Build.rule
+/home/jws/Projects/testAudio/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/jws/Projects/testAudio/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/jws/Projects/testAudio/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/jws/Projects/testAudio/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/jws/Projects/testAudio/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/jws/Projects/testAudio/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/jws/Projects/testAudio/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/jws/Projects/testAudio/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
